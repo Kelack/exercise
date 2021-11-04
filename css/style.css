@@ -1,0 +1,63 @@
+body
+{
+ background-color:#808080;
+ margin:0px auto;
+ padding:0px;
+ font-family:helvetica;
+}
+
+.size
+{
+    font-size: 100px;
+    
+}
+
+.size h1
+{
+    margin: 50px;
+    
+}
+
+.size input
+{
+    font-size: 50px;
+    width: 250px;
+    height: 70px;
+    
+}
+
+.form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.form:first-child
+{
+    margin-top: 101px;
+}
+
+.form input{
+    width: 100%;
+}
+
+
+.form input[type=submit] {
+    padding: 5px;
+    margin-top: 5px;
+ }
+
+ .form input[type=text] {
+    margin-bottom: 3px;
+    padding: 2px;
+ }
+ .form input[type=email] {
+    margin-bottom: 3px;
+    padding: 2px;
+
+ }
+
+
